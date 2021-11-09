@@ -3,7 +3,7 @@
 //   return `http://localhost:3000/public/${fileName}`;
 // };
 
-const baseUrl = process.env.API || "https://flipkart-rest-server.herokuapp.com";
+const baseUrl = process.env.API || "https://mern-ecormerce.herokuapp.com";
 //const baseUrl = "http://localhost:2000";
 
 export const api = `${baseUrl}/api`;
