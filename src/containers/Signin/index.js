@@ -37,6 +37,7 @@ export const Signin = (props) => {
         <Row style={{ marginTop: "50px" }}>
           <Col md={{ span: 6, offset: 3 }}>
             <Form onSubmit={userLogin}>
+              <p>example: email ngochieu15@gmail.com pass: 123456</p>
               <Input
                 label='Email'
                 placeholder='Email'
